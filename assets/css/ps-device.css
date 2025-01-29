@@ -1,0 +1,179 @@
+@media (max-width:1900px){
+    .contentBox::before{right: 65px;}
+}
+
+@media (max-width:1800px){
+    /* === main slider === */
+    .psHeadSlide{height: 98vh;}
+    .contentBox{margin-top: 113px;}
+    .contentBox::before {right: 46px;}
+    .imgBox{max-width: 625px;}
+}
+
+@media (max-width:1700px) {
+    .ftSlideTxtn {font-size: 80px;}
+}
+
+@media (max-width:1600px) {
+    /* === main slider === */
+    .contentBox{max-width: 695px;  padding: 30px 110px 64px 64px;}
+    .contentBox::before {right: 8px;}
+}
+
+@media (max-width:1540px) {}
+
+@media (max-width:1500px) {
+    .main-wrapper{padding: 0 15px;}
+
+    /* === main slider === */
+    .contentBox {margin-top: 65px; padding: 30px 70px 64px 94px;}
+    .contentBox::before {right: 7px;}
+    .imgBox {max-width: 610px;}
+}
+
+@media (max-width:1400px) {
+    /* === main slider === */
+    .psHeadSlide {height: 90vh;}
+    .contentBox {max-width: 525px;padding: 66px 48px 64px 52px;}
+    .contentBox::before{width: 659px; top: -160px;}
+    .imgBox {max-width: 560px;}
+
+
+    /* === approach section === */
+    .appProBox1Info{max-width: 356px;}
+
+}
+
+
+@media (max-width:1200px){
+    /* === approach section === */
+    .psAppProcess{justify-content: space-between;}
+    .appProBox{max-width: 329px;}
+    .appProBox1Info {max-width: 330px;}
+    .blockLink{display: none;}
+}
+
+
+@media (max-width:1140px) {
+    /* === main slider === */
+    .psHeadSlide {height: 85vh;}
+    .contentBox::before {width: 640px; top: -154px; height: 595px; right: 15px;}
+    .imgBox {max-width: 502px;}
+
+
+    /* === service card === */
+    .servCardInfo{column-gap: 39px;}
+    .servCardBox {max-width: calc(50% - 20px);}
+    .servCardImg{width: 80px; height: 80px;}
+}
+
+@media (max-width:1024px){
+    /* === client section === */
+    .customVideo{max-width: 35%;}
+    .customImage{max-width: 65%;}
+    .cutomHead {margin-top: 30px;}
+
+
+    /* === approach section === */
+    .psAppProcess {flex-wrap: wrap; justify-content: center; row-gap: 30px;}
+    .appProBox {max-width: 100%; flex-direction: row; justify-content: space-between; padding-top: 50px;}
+    .appProBox2{max-width: 40%; padding-top: 0px;}
+    .appProBox1Info {max-width: 48%;}
+    .appProCount{font-size: 70px; top: -70px;}
+}
+
+@media (max-width:991px){
+    /* === main slider === */
+    .psHeadSlide {height: 75vh;}
+    .contentBox {max-width: 530px; padding: 30px 54px 64px 64px; margin-top: 50px;}
+    .contentBox::before{width: 630px; height: 598px; top: -190px;}
+    .imgBox {max-width: 430px;}
+    .psHeadSlide > .slick-slider button{width: 40px;}
+}
+
+
+@media (max-width:940px){
+    /* === main slider === */
+    .psHeadSlide {height: 65vh;}
+    .contentBox::before {width: 520px; height: 550px; top: -190px;}
+    .contentBox {max-width: 420px; padding: 30px 24px 48px 55px; margin-top: 50px;}
+    .imgBox {max-width: 400px;}
+}
+
+@media (max-width:880px){
+    /* === blog section === */
+    .blogNewsBox{flex-direction: column; row-gap: 30px;}
+    .blogBoxLft{max-width: 100%;}
+
+    /* === approach section === */
+    .psAppProcess {flex-wrap: wrap; justify-content: center; row-gap: 30px;}
+    .appProBox {max-width: 100%; flex-direction: row; justify-content: space-between; padding-top: 50px;}
+    .appProBox2{max-width: 40%; padding-top: 0px;}
+    .appProBox1Info {max-width: 48%;}
+    .appProCount{font-size: 70px; top: -70px;}
+}
+
+@media (max-width:767px){
+    /* === main slider === */
+    .psHeadSlide {height: auto; padding-top: 4.5em; }
+    .psSlideBox{flex-direction: column;}
+    .contentBox { max-width: 80%; padding: 72px 23px 40px; margin-top: 0; margin-left: 20px; margin-bottom: -255px;}
+    .contentBox::before {width: 733px; height: 489px; top: -125px;}
+    .imgBox {max-width: 40%;margin-left: auto; padding-top: 140px;}
+    .psHeadSlide > .slick-slider button{width: 30px;}
+
+
+    /* === client section === */
+    .customInfoBox{flex-direction: column;}
+    .customVideo{max-width: 95%; margin: 0 auto;}
+    .cutomleftAngle, .cutomRightAngle{display: none;}
+    .customImage {max-width: 100%; padding: 15px;}
+
+    /* === approach section === */
+    .psAppProcess {flex-wrap: wrap; justify-content: center; row-gap: 30px;}
+    .appProBox {max-width: 100%; flex-direction: column; justify-content: space-between; padding-top: 50px; }
+    .appProBox2{max-width: 40%; padding-top: 0px;}
+    .appProBox1Info {max-width: 100%; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;}
+    .appProCount{font-size: 55px; top: -55px;}
+    .appProBox2{display: none;}
+
+    /* === footer section === */
+    .ftSlideTxtn{font-size: 55px;}
+}
+
+@media (max-width:650px) {
+    /* === service card === */
+    .servCardBox {max-width: calc(100% - 0px); padding: 28px;}
+}
+
+@media (max-width:550px){
+    .customVideo::before {
+        width: calc(100% + 0px);
+        height: calc(100% + 0px);
+    }
+
+
+    /* === blog section === */
+    .blogHeadBtn{flex-direction: column;}
+    .blogHead .secHead {margin-bottom: 25px;}
+    .blogHead .secHead h2{text-align: center;}
+    .blogBoxLft{max-width: 100%; flex-direction: column; row-gap: 30px;}
+    .blogBoxInfo{width: calc(100% - 0px);}
+    .blogNewsBox{row-gap: 0;}
+
+
+}
+
+@media (max-width:500px){
+
+    /* === footer section === */
+    .ftSlideTxtn{font-size: 55px;}
+}
+
+@media (max-width:400px){
+    /* === main slider === */
+    .psHeadSlide {padding-top: 6.5em;}
+    .contentBox { max-width: 810%; padding: 20px; margin-top: 0; margin-left: 0px; margin-bottom: -255px;}
+    .contentBox p {margin-bottom: 14px; margin-top: 14px;}
+    .imgBox{padding-top: 185px;}
+}
