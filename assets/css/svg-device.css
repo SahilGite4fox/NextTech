@@ -62,7 +62,8 @@
     .jobLocation > p,.jobMode > p,.experiT > p,.experiT > p,.applyBtn > a{font-size:12px;}
     .mainBtn span{width:45px;height:45px;}
     span.ulPin > svg{padding:0.2em;width:15px;height:15px;}
-
+    .detailsContent,.tabsSec{width:100%;}
+    .tabsSec{position: relative;padding-bottom: 0;}
 }
 @media only screen and (max-width:1024px){}
 @media only screen and (max-width:950px){
